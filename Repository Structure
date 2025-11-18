@@ -1,0 +1,31 @@
+movie-feature-extractor/
+│
+├── src/
+│   ├── __init__.py
+│   ├── feature_extractor.py
+│   └── utils.py
+│
+├── data/
+│   ├── ml-100k/ (you'll place the dataset here)
+│   └── processed/
+│
+├── examples/
+│   ├── basic_usage.py
+│   ├── integration_example.py
+│   └── visualization.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_feature_extraction.py
+│   └── test_encoding.py
+│
+├── docs/
+│   ├── README.md
+│   ├── API_REFERENCE.md
+│   └── EXAMPLES.md
+│
+├── requirements.txt
+├── setup.py
+├── .gitignore
+├── LICENSE
+└── README.md
